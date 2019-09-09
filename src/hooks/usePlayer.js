@@ -38,7 +38,7 @@ export const usePlayer = () => {
     }
 
     setPlayer(clonedPlayer)
-  }
+  };
 
   const updatePlayerPos = ({x, y, collided}) => {
     setPlayer(prev => ({
